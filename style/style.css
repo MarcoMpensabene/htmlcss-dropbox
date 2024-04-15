@@ -105,3 +105,37 @@ section.office-contact .box-title {
     text-align: center;
     border: 1px solid gray;
 }
+section.find-partner{
+    border: 1px solid black;
+    display: flex;
+    padding: 1rem;
+    margin-bottom: 2rem;
+}
+img.networking-img{
+    width: 60%;
+}
+div.partner{
+    width: 40%;
+    margin-top: 2rem;
+}
+section.drop-business{
+    margin-bottom: 5rem;
+}
+section.drop-business h3{
+    margin-bottom: 2rem;
+    
+}
+div.functionality-dropbox{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border: 1px solid black;
+
+}
+div.function{
+    width: 30%;
+    margin-bottom: 1.5rem;
+}
+section.usage{
+    margin-top: 6rem;
+}
