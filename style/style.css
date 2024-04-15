@@ -3,3 +3,32 @@
     margin: 0;
     box-sizing: border-box;
 }
+body{
+    font-family: "Open Sans", sans-serif;
+}
+
+header{
+    padding: 1rem;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+section.head-right > img ul{
+    justify-content: space-around;
+}
+ul{
+    list-style: none;
+}
+section.head-right li ,
+section.head-left  li {
+    margin-right: 2rem;
+}
+
+section.head-right img{
+    margin-right: 2rem;
+}
+
+button{
+    background-color: #0058ff;
+}
