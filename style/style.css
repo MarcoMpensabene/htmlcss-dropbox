@@ -45,6 +45,7 @@ section.jumbo{
 
 h1{
     font-size: 60px;
+    margin-bottom: 2rem;
 }
 .jumbotron-box{
     width: 70%;
@@ -62,4 +63,45 @@ h1{
     flex-direction: column;
     max-width: 20%;
     justify-content: space-between;
+}
+.subscription{
+    width: 60%;
+    margin: 0 auto;
+    padding: 1rem
+}
+.subscription h2{
+    margin: 2rem 0 2rem;
+}
+div.sub-period{
+    display: flex;
+}
+.sub-period div{
+    margin-right: 3rem;
+    margin-bottom: 2rem;
+}
+
+section.sub-plan{
+    display: flex;
+    padding: 1rem;
+    justify-content: space-between;
+}
+div.single,
+div.team,
+div.agency {
+    width: 20%;
+    border: 1px solid grey;
+}
+section.office-contact{
+    border: 1px gray solid;
+    margin-bottom: 2rem;
+}
+div.enterprise-offer{
+    display: flex;
+    flex-direction: column;
+
+}
+
+section.office-contact .box-title {
+    text-align: center;
+    border: 1px solid gray;
 }
