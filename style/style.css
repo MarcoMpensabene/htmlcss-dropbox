@@ -31,4 +31,38 @@ section.head-right img{
 
 button{
     background-color: #0058ff;
+    color: white;
+    border: transparent;
+    height: 25px;
+    padding: 0.2rem;
+}
+section.jumbo{
+    
+    background-color: #9cb4c7;
+    margin: 0 auto;
+    position: relative;
+}
+
+h1{
+    text-align: center;
+    margin: 0 auto;
+    padding: 2rem;
+    font-size: 60px;
+}
+.jumbotron-box{
+    max-width: 70%;
+    text-align: center;
+    margin: 0 auto;
+}
+.jumbotron-box img{
+    width: 600px;
+    position: absolute;
+    bottom: 0;
+    right: 20%;
+}
+
+.j-right{
+    display: flex;
+    flex-direction: column;
+    max-width: 20%;
 }
