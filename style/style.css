@@ -14,19 +14,22 @@ header{
     display: flex;
     justify-content: space-between;
 }
-section.head-right > img ul{
+nav.head-right > img ul{
     justify-content: space-around;
 }
 ul{
     list-style: none;
 }
-section.head-right li ,
-section.head-left  li {
+nav.head-right li ,
+nav.head-left  li {
     margin-right: 2rem;
 }
 
-section.head-right img{
+nav.head-right img{
     margin-right: 2rem;
+}
+nav ul li> a{
+    text-decoration: none;
 }
 
 button{
@@ -45,24 +48,37 @@ section.jumbo{
 
 h1{
     font-size: 60px;
-    margin-bottom: 2rem;
+    margin: 3rem 0 3rem;
+}
+i{
+    font-size: 45px;
 }
 .jumbotron-box{
-    width: 70%;
+    width: 900px;
     margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
 }
 .jumbotron-box img{
-    width: 600px;
+    width: 700px;
     position: absolute;
-    bottom: 0;
-    right: 20%;
+
 }
 
 .j-right{
     display: flex;
     flex-direction: column;
-    max-width: 20%;
+    max-width: 35%;
     justify-content: space-between;
+    padding: .5rem 0 .5rem;
+}
+.j-right p,
+.j-right button, 
+.j-right a {
+    margin-bottom: 1.5rem;
+}
+.j-right i{
+    margin-top: 2rem;
 }
 .subscription{
     width: 60%;
@@ -72,7 +88,7 @@ h1{
 .subscription h2{
     margin: 2rem 0 2rem;
 }
-div.sub-period{
+article.sub-period{
     display: flex;
 }
 .sub-period div{
@@ -82,16 +98,15 @@ div.sub-period{
 
 section.sub-plan{
     display: flex;
-    padding: 1rem;
     justify-content: space-between;
 }
-div.single,
-div.team,
-div.agency {
+article.single,
+article.team,
+article.agency {
     width: 20%;
     border: 1px solid grey;
 }
-section.office-contact{
+article.office-contact{
     border: 1px gray solid;
     margin-bottom: 2rem;
 }
@@ -154,7 +169,7 @@ section.logo-center{
 footer{
     background-color: black;
 }
-.footer{
+.foot-nav{
     display: flex;
     margin: 0 auto;
     width: 70%;
