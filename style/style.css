@@ -20,6 +20,9 @@ nav.head-right > img ul{
 ul{
     list-style: none;
 }
+ul li{
+    margin-bottom: 1.2rem;
+}
 nav.head-right li ,
 nav.head-left  li {
     margin-right: 2rem;
@@ -49,6 +52,10 @@ section.jumbo{
 h1{
     font-size: 60px;
     margin: 3rem 0 3rem;
+}
+span{
+    color: #0a5fff;
+    margin-right: 0.2rem;
 }
 .j-right i{
     font-size: 45px;
@@ -131,16 +138,21 @@ nav.buy-now{
     max-width: 20%;
     margin: 2rem 0 2rem;
 }
+
 .info-article-padding{
     padding: 2rem;
 }
+#list-title{
+    margin-bottom: 1.5rem;
+}
 article.office-contact{
     border: 1px gray solid;
-    margin-bottom: 2rem;
+    margin: 2rem 0 2rem;
 }
 div.enterprise-offer{
     display: flex;
     flex-direction: column;
+    width: 70%;
 }
 
 section.office-contact .box-title {
@@ -171,13 +183,16 @@ div.functionality-dropbox{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    border: 1px solid black;
 
 }
 div.function{
-    width: 30%;
     margin-bottom: 1.5rem;
+    width: 30%;
 }
+div.function img{
+   width: 100%;
+}
+
 section.usage{
     margin-top: 6rem;
 }
