@@ -286,6 +286,7 @@ footer{
     margin: 0 auto;
     width: 70%;
     margin-bottom: 3rem;
+    padding: 3rem 0 3rem;
 
 }
 ul.foot-list{
@@ -296,11 +297,28 @@ ul.foot-list{
     justify-content: space-between;
     width: calc( 100% / 5);
 }
+ul.foot-list a{
+    color: white;
+    text-decoration: none;
+    font-size: medium;
+}
+ul.foot-list li > h3{
+    font-size: x-large;
+}
 .last-section{
     width: 70%;
     margin: 0 auto;
     
 }
 .last-section hr{
+    margin-bottom: 2rem;
+    width: 10%;
+}
+.last-section select,
+.last-section i{
+    border: 0;
+    background-color: black;
+    color: white;
+    font-size: larger;
     margin-bottom: 2rem;
 }
