@@ -220,12 +220,63 @@ section.logos-block{
     display: flex;
 }
 
-section.logo-box-right,
-section.logo-box-left{
-    width: 25%;
+div.logo-box-right,
+div.logo-box-left{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 35%;
 }
-section.logo-center{
+div.square{
     width: 50%;
+    height: 50%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.square img{
+    object-fit: cover;
+    width: 40%;
+}
+div.logo-center{
+    max-width:30%;
+}
+div.logo-center img{
+    width: 60%;
+}
+.logo-center p {
+    margin-bottom: 1rem;
+}
+section.advertising{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 4rem 0 4rem;
+    margin-bottom: 2rem;
+    margin: 0 auto;
+    background-color: #b4d0e7;
+}
+section.advertising h3{
+    width: 30%;
+    font-size: 30px;
+    
+}
+section.advertising button{
+    width: 10%;
+}
+
+
+section.questions {
+    max-width: 60%;
+    margin: 0 auto;
+}
+.list-question {
+    padding: 7rem 0 7rem;
+}
+.list-question h2{
+    margin-bottom: 2rem;
+    font-size: 30px;
+}
+.list-question li{
+    margin-bottom: 2rem;
 }
 footer{
     background-color: black;
