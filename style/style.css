@@ -8,7 +8,7 @@ body{
 }
 
 header{
-    padding: 1rem;
+    padding: 1rem 1rem 0;
 }
 .flex{
     display: flex;
@@ -54,7 +54,7 @@ section.jumbo{
 }
 
 h1{
-    font-size: 60px;
+    font-size: 55px;
     margin: 3rem 0 3rem;
 }
 span{
@@ -65,13 +65,13 @@ span{
     font-size: 45px;
 }
 .jumbotron-box{
-    width: 900px;
+    width: 60%;
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
 }
 .jumbotron-box img{
-    width: 700px;
+    width: 800px;
     position: absolute;
 
 }
@@ -79,7 +79,7 @@ span{
 .j-right{
     display: flex;
     flex-direction: column;
-    max-width: 35%;
+    max-width: 25%;
     justify-content: space-between;
     padding: .5rem 0 .5rem;
 }
@@ -92,7 +92,7 @@ span{
     margin-top: 2rem;
 }
 .subscription{
-    width: 40%;
+    width: 45%;
     margin: 0 auto;
 }
 .subscription h2{
@@ -265,7 +265,7 @@ section.advertising button{
 
 
 section.questions {
-    max-width: 60%;
+    max-width: 45%;
     margin: 0 auto;
 }
 .list-question {
@@ -284,7 +284,7 @@ footer{
 .foot-nav{
     display: flex;
     margin: 0 auto;
-    width: 70%;
+    width: 60%;
     margin-bottom: 3rem;
     padding: 3rem 0 3rem;
 
@@ -306,7 +306,7 @@ ul.foot-list li > h3{
     font-size: x-large;
 }
 .last-section{
-    width: 70%;
+    width: 60%;
     margin: 0 auto;
     
 }
