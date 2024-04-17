@@ -158,6 +158,9 @@ nav.buy-now{
 .info-article-padding{
     padding: 2rem;
 }
+div.info-article-padding button{
+    padding: 0 2rem 0 ;
+}
 #list-title{
     margin-bottom: 1.5rem;
 }
@@ -303,7 +306,7 @@ section.advertising h3{
     
 }
 section.advertising button{
-    max-width: 30%;
+    max-width: 15%;
 }
 
 
@@ -369,6 +372,7 @@ ul.foot-list li > h3{
     background-color: #ffffff;
     color: black;
     padding: 0 1rem 0 ;
+    max-width: fit-content;
 }
 .black-border{
     border: 1px solid black;
