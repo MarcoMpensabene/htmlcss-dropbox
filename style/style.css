@@ -14,7 +14,7 @@ header{
     display: flex;
     justify-content: space-between;
 }
-nav.head-right > img ul{
+nav.header-right > img ul{
     justify-content: space-around;
 }
 ul{
@@ -24,15 +24,15 @@ ul li{
     margin-bottom: 1.2rem;
 }
 
-nav.head-right li ,
-nav.head-left  li {
+nav.header-right li ,
+nav.header-left  li {
     margin-right: 2rem;
 }
 img#dropbox-logo {
-height: 20px;
+    height: 20px;
 }
 
-nav.head-right img{
+nav.header-right img{
     margin-right: 2rem;
 }
 nav ul li> a{
@@ -61,38 +61,38 @@ span{
     color: #0a5fff;
     margin-right: 0.2rem;
 }
-.j-right i{
+.jumbo-right i{
     font-size: 45px;
 }
 .jumbotron-box{
-    width: 60%;
+    max-width: 60%;
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
 }
 .jumbotron-box img{
-    width: 800px;
+    max-width: 800px;
     position: absolute;
 
 }
 
-.j-right{
+.jumbo-right{
     display: flex;
     flex-direction: column;
     max-width: 25%;
     justify-content: space-between;
     padding: .5rem 0 .5rem;
 }
-.j-right p,
-.j-right button, 
-.j-right a {
+.jumbo-right p,
+.jumbo-right button, 
+.jumbo-right a {
     margin-bottom: 1.5rem;
 }
-.j-right i{
+.jumbo-right i{
     margin-top: 2rem;
 }
 .subscription{
-    width: 45%;
+    max-width: 45%;
     margin: 0 auto;
 }
 .subscription h2{
@@ -114,7 +114,7 @@ section.sub-plan{
 article.single,
 article.team,
 article.agency {
-    width: 31.5%;
+    max-width: 31.5%;
     border: 1px solid grey;
 }
 #border-title{
@@ -156,7 +156,7 @@ article.office-contact{
 div.enterprise-offer{
     display: flex;
     flex-direction: column;
-    width: 70%;
+    max-width: 70%;
 }
 section.office-contact .box-title {
     text-align: center;
@@ -168,7 +168,7 @@ section.find-partner{
     justify-content: space-between;
 }
 img.networking-img{
-    width: 60%;
+    max-width: 60%;
 }
 div.partner{
     width: 30%;
@@ -202,15 +202,15 @@ div.functionality-dropbox{
 }
 div.function{
     margin-bottom: 1.5rem;
-    width: 30%;
+    max-width: 30%;
 }
 div.function img{
-    width: 100%;
+    max-width: 100%;
 }
 
 section.usage{
     margin-top: 6rem;
-    width: 80%;
+    max-width: 80%;
 }
 .usage h3{
     font-size: 35px;
@@ -227,21 +227,21 @@ div.logo-box-left{
     max-width: 35%;
 }
 div.square{
-    width: 50%;
-    height: 50%;
+    max-width: 50%;
+    max-height: 50%;
     justify-content: center;
     align-items: center;
     display: flex;
 }
 .square img{
     object-fit: cover;
-    width: 40%;
+    max-width: 40%;
 }
 div.logo-center{
     max-width:30%;
 }
 div.logo-center img{
-    width: 60%;
+    max-width: 60%;
 }
 .logo-center p {
     margin-bottom: 1rem;
@@ -260,7 +260,7 @@ section.advertising h3{
     
 }
 section.advertising button{
-    width: 10%;
+    max-width: 10%;
 }
 
 
@@ -284,7 +284,7 @@ footer{
 .foot-nav{
     display: flex;
     margin: 0 auto;
-    width: 60%;
+    max-width: 60%;
     margin-bottom: 3rem;
     padding: 3rem 0 3rem;
 
@@ -295,7 +295,7 @@ ul.foot-list{
     color: white;
     flex-direction: column;
     justify-content: space-between;
-    width: calc( 100% / 5);
+    width: calc( 100% / 5 );
 }
 ul.foot-list a{
     color: white;
@@ -306,13 +306,13 @@ ul.foot-list li > h3{
     font-size: x-large;
 }
 .last-section{
-    width: 60%;
+    max-width: 60%;
     margin: 0 auto;
     
 }
 .last-section hr{
     margin-bottom: 2rem;
-    width: 10%;
+    max-width: 10%;
 }
 .last-section select,
 .last-section i{
