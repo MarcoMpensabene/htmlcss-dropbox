@@ -224,27 +224,57 @@ div.logo-box-right,
 div.logo-box-left{
     display: flex;
     flex-wrap: wrap;
-    max-width: 35%;
+    width: 30%;
 }
 div.square{
-    max-width: 50%;
-    max-height: 50%;
+    width: 50%;
+    height: 50%;
     justify-content: center;
     align-items: center;
     display: flex;
 }
+.green{
+    background-color: #92d0cb;
+}
+.brown{
+    background-color: #61082b;
+}
+.blue{
+    background-color: #0093ce;
+}
+.red{
+    background-color: #ff1c1c;
+}
+.darker-red{
+    background-color: #d5001f;
+}
+.light-blue{
+    background-color: #b4d0e7;
+}
+.dark-blue{
+    background-color: #0d2481;
+}
+.yellow{
+    background-color: #ffd830;
+}
 .square img{
     object-fit: cover;
-    max-width: 40%;
+    width: 40%;
+    filter: invert(100%);
 }
 div.logo-center{
-    max-width:30%;
+    max-width:40%;
+    padding: 1rem 2rem 8.9rem;
+    background-color: #f5f5f5;
 }
 div.logo-center img{
-    max-width: 60%;
+    max-width: 40%;
 }
 .logo-center p {
     margin-bottom: 1rem;
+}
+.logo-center p{
+    margin-bottom: 4rem;
 }
 section.advertising{
     display: flex;
