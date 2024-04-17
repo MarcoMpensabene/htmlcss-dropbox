@@ -61,8 +61,9 @@ button{
     color: white;
     border: transparent;
     height: 30px;
-    padding: 0.2rem;
+    padding: 0.3rem;
     width: 100%;
+    margin: 0 auto;
 }
 section.jumbo{
     
@@ -72,8 +73,8 @@ section.jumbo{
 }
 
 h1{
-    font-size: 55px;
-    margin: 3rem 0 3rem;
+    font-size: 70px;
+    margin: 6rem 0 3rem;
 }
 span{
     color: #0a5fff;
@@ -120,6 +121,9 @@ span{
 article.sub-period{
     display: flex;
 }
+div.info-article-padding ul> li{
+    font-size: 80%;
+}
 .sub-period div{
     margin-right: 3rem;
     margin-bottom: 2rem;
@@ -132,7 +136,7 @@ section.sub-plan{
 article.single,
 article.team,
 article.agency {
-    max-width: 31.5%;
+    max-width: 32%;
     border: 1px solid grey;
 }
 #border-title{
@@ -143,6 +147,16 @@ article.agency {
 }
 nav.buy-now{
     margin: 2rem 0 2rem;
+}
+nav.buy-now button{
+    margin-bottom: 2rem;
+}
+nav.buy-now p{
+    display: inline;
+}
+.buy-now p,
+.buy-now a{
+    font-size: 80%;
 }
 .sub-icon{
     font-size: 80%;
@@ -169,6 +183,7 @@ div.info-article-padding button{
 }
 #list-title{
     margin-bottom: 1.5rem;
+    font-size: 90%;
 }
 article.office-contact{
     border: 1px gray solid;
@@ -299,16 +314,21 @@ div.logo-center img{
 }
 section.advertising{
     display: flex;
-    justify-content: space-evenly;
     padding: 7rem 0 7rem;
     margin-bottom: 2rem;
     margin: 0 auto;
     background-color: #b4d0e7;
+    align-items: center;
+    justify-content: center;
+}
+#adv-button{
+    max-width: 10%;
 }
 section.advertising h3{
-    max-width: 20%;
+    width: 20%;
     font-size: 30px;
     color: #61082b;
+    margin-left: 28%;
     
 }
 section.advertising button{
@@ -378,7 +398,7 @@ ul.foot-list li > h3{
     background-color: #ffffff;
     color: black;
     padding: 0 1rem 0 ;
-    max-width: fit-content;
+   width: 80%;
 }
 .black-border{
     border: 1px solid black;
